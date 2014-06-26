@@ -1,0 +1,112 @@
+/*------------------------
+API iPromoRD CSS
+Name: style.css
+Author: Batista Full
+Version: 1.0
+URL: http://batistafull.info/api-css
+Date: 26 junio 2014
+--------------------------*/
+body{margin: 0px auto 0px 0px;color: #00a8ec;background: #fff url();font-family: calibri;}
+a:link{text-decoration:none;}
+/* imagenes y efectos */
+ipromord div{box-shadow: 0;transition-duration: 1s;} /* desvuelve el efecto de los div a defaut con un atraso de un segundo */
+ipromord .margen{margin-top: 5px;margin-bottom: 5px;margin-left: 5px;margi: 5px;}
+ipromord div.draw{border: 1px solid #ccc;text-align:center;} /* draw solo fuciona para Div */
+ipromord div.efecto:hover{box-shadow: 10px 10px 5px #888888;transition-duration: 1s;}
+ipromord div.radio{border-radius: 5px;}
+ipromord div.radiod{border-radius: 100% 100% 100% 100%;} /* Div circular */
+ipromord img.radiot{border-radius: 100% 100% 100% 100%;} /* Thudnail circular para imagenes */
+ipromord img{width:300px;height:300px;margin-top:2px;opacity: 9.0;transition-duration: 1s;}
+ipromord img.thumd{width:145px;height:150px;margin-top:2px;}
+ipromord img:hover{opacity: 0.5;transition-duration: 1s;}
+/*  cajas */
+ipromord div.caja0{width:300px;height:300px;} /* Div por defecto */
+ipromord div.caja1{width:150px;height:200px;}
+ipromord div.caja2{width:200px;height:300px;}
+ipromord div.caja3{width:350px;height:250px;} /* contenedor para cajas */
+ipromord div.caja4{width:900px;height:250px;} /* contenedor de capsulas */
+ipromord div.caja5{width:900px;height:850px;} /* contenedor completo */
+ipromord div.color0{background: #fff url();color: #00a8ec;}/* color por defecto */
+ipromord div.color1{background: #fb525a;color: #fff;}
+ipromord div.color2{background: #fbd552;color: #fff;}
+ipromord div.color3{background: #6efb52;color: #fff;}
+ipromord div.color4{background: #00a8ec;color: #fff;}
+ipromord div.color5{background: #605ca8;color: #fff;}
+/* colores */
+ipromord span.color0{color: #000;}
+ipromord span.color1{color: #fb525a;}
+ipromord span.color2{color: #fbd552;}
+ipromord span.color3{color: #6efb52;}
+ipromord span.color4{color: #00a8ec;} /* color por defecto */
+ipromord span.color5{color: #605ca8;}
+ipromord span.color6{color: #fff;}
+ipromord a.color0:link{color: #000;} /* color de link por defecto */
+ipromord a.color1:link{color: #fb525a;}
+ipromord a.color2:link{color: #fbd552;}
+ipromord a.color3:link{color: #6efb52;}
+ipromord a.color4:link{color: #00a8ec;}
+ipromord a.color5:link{color: #605ca8;}
+ipromord a.color6:link{color: #fff;}
+ipromord a.color0:link{color: #000;} /* color de link por defecto */
+ipromord a.color1:visited{color: #fb525a;}
+ipromord a.color2:visited{color: #fbd552;}
+ipromord a.color3:visited{color: #6efb52;}
+ipromord a.color4:visited{color: #00a8ec;}
+ipromord a.color5:visited{color: #605ca8;}
+ipromord a.color6:visited{color: #fff;}
+ipromord a.color0:hover {color: #fd3d02;}
+ipromord a.color1:hover {color: #fd3d02;}
+ipromord a.color2:hover {color: #fd3d02;}
+ipromord a.color3:hover {color: #fd3d02;}
+ipromord a.color4:hover {color: #fd3d02;}
+ipromord a.color5:hover {color: #fd3d02;}
+ipromord a.color6:hover {color: #fd3d02;}
+ipromord a:link {color: #000;}
+ipromord a:visited {color: #000;}
+ipromord a:hover {color: #fd3d02;}
+ipromord a:active {color: #71706f;}
+/* letras */
+ipromord h1{font-size: 40px;}
+ipromord h2{font-size: 35px;}
+ipromord h3{font-size: 30px;}
+ipromord h4{font-size: 25px;}
+ipromord h5{font-size: 20px;}
+ipromord h6{font-size: 15px;}
+ipromord p{font-size: 15px;}
+ipromord p.psmall{font-size: 12px;}
+ipromord p.pmedium{font-size: 20px;}
+ipromord p.plarge{font-size: 30px;}
+ipromord p.pfull{font-size: 40px;}
+ipromord span.tsmall{font-size: 20px;}
+ipromord span.tmedium{font-size: 40px;}
+ipromord span.tlarge{font-size: 60px;}
+ipromord span.tfull{font-size: 80px;}
+ipromord span.letra0{font-size: 18px;}
+ipromord span.letra1{font-size: 15px;}
+ipromord span.letra2{font-size: 20px;}
+ipromord span.letra3{font-size: 25px;}
+ipromord span.letra4{font-size: 30px;}
+ipromord span.letra5{font-size: 35px;}
+ipromord span.letra6{font-size: 40px;}
+ipromord span.letra7{font-size: 45px;}
+ipromord span.letra8{font-size: 50px;}
+ipromord span.letra9{font-size: 55px;}
+ipromord span.letra10{font-size: 60px;}
+/* listas y menu */
+ipromord ul{list-style: none;display:inline;margin-left:2px;}
+ipromord ul.hlis li{display:inline;}
+ipromord ul.ulsize{display:block;height:40px;width:auto;}
+ipromord ul.ulsize li a{display:block;height:40px;width:auto;float:left;margin-left:5px; text-align:center;}
+ipromord ul.ulsize li a:hover{background:#000; color:#fd3d02;}
+ipromord ul.color0{background: #fff url();color: #00a8ec;}/* color por defecto */
+ipromord ul.color1{background: #fb525a;color: #fff;}
+ipromord ul.color2{background: #fbd552;color: #fff;}
+ipromord ul.color3{background: #6efb52;color: #fff;}
+ipromord ul.color4{background: #00a8ec;color: #fff;}
+ipromord ul.color5{background: #605ca8;color: #fff;}
+ipromord ul.liscolor0 li a{background: #fff url();color: #00a8ec;}/* color por defecto */
+ipromord ul.liscolor1 li a{background: #fb525a;color: #fff;}
+ipromord ul.liscolor2 li a{background: #fbd552;color: #fff;}
+ipromord ul.liscolor3 li a{background: #6efb52;color: #fff;}
+ipromord ul.liscolor4 li a{background: #00a8ec;color: #fff;}
+ipromord ul.liscolor5 li a{background: #605ca8;color: #fff;}
